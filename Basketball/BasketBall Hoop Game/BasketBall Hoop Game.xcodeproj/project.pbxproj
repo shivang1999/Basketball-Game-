@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C78887720FB3788001D40EB /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78887620FB3788001D40EB /* CustomButtons.swift */; };
+		2CC94A3120F913E900A6B057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC94A3020F913E900A6B057 /* AppDelegate.swift */; };
+		2CC94A3320F913E900A6B057 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC94A3220F913E900A6B057 /* art.scnassets */; };
+		2CC94A3520F913E900A6B057 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC94A3420F913E900A6B057 /* ViewController.swift */; };
+		2CC94A3820F913E900A6B057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC94A3620F913E900A6B057 /* Main.storyboard */; };
+		2CC94A3D20F913EB00A6B057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC94A3B20F913EB00A6B057 /* LaunchScreen.storyboard */; };
+		2CC94A4420F9154500A6B057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC94A3920F913EB00A6B057 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C78887620FB3788001D40EB /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		2CC94A2D20F913E900A6B057 /* BasketBall Hoop Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BasketBall Hoop Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC94A3020F913E900A6B057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CC94A3220F913E900A6B057 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		2CC94A3420F913E900A6B057 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CC94A3720F913E900A6B057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CC94A3920F913EB00A6B057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CC94A3C20F913EB00A6B057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CC94A3E20F913EB00A6B057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CC94A2A20F913E900A6B057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CC94A2420F913E900A6B057 = {
+			isa = PBXGroup;
+			children = (
+				2CC94A2F20F913E900A6B057 /* BasketBall Hoop Game */,
+				2CC94A2E20F913E900A6B057 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CC94A2E20F913E900A6B057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CC94A2D20F913E900A6B057 /* BasketBall Hoop Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CC94A2F20F913E900A6B057 /* BasketBall Hoop Game */ = {
+			isa = PBXGroup;
+			children = (
+				2CC94A3020F913E900A6B057 /* AppDelegate.swift */,
+				2CC94A3220F913E900A6B057 /* art.scnassets */,
+				2CC94A3420F913E900A6B057 /* ViewController.swift */,
+				2C78887620FB3788001D40EB /* CustomButtons.swift */,
+				2CC94A3620F913E900A6B057 /* Main.storyboard */,
+				2CC94A3920F913EB00A6B057 /* Assets.xcassets */,
+				2CC94A3B20F913EB00A6B057 /* LaunchScreen.storyboard */,
+				2CC94A3E20F913EB00A6B057 /* Info.plist */,
+			);
+			path = "BasketBall Hoop Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CC94A2C20F913E900A6B057 /* BasketBall Hoop Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC94A4120F913EB00A6B057 /* Build configuration list for PBXNativeTarget "BasketBall Hoop Game" */;
+			buildPhases = (
+				2CC94A2920F913E900A6B057 /* Sources */,
+				2CC94A2A20F913E900A6B057 /* Frameworks */,
+				2CC94A2B20F913E900A6B057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BasketBall Hoop Game";
+			productName = "BasketBall Hoop Game";
+			productReference = 2CC94A2D20F913E900A6B057 /* BasketBall Hoop Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CC94A2520F913E900A6B057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Shivang Ranjan";
+				TargetAttributes = {
+					2CC94A2C20F913E900A6B057 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2CC94A2820F913E900A6B057 /* Build configuration list for PBXProject "BasketBall Hoop Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CC94A2420F913E900A6B057;
+			productRefGroup = 2CC94A2E20F913E900A6B057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CC94A2C20F913E900A6B057 /* BasketBall Hoop Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CC94A2B20F913E900A6B057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC94A3320F913E900A6B057 /* art.scnassets in Resources */,
+				2CC94A3D20F913EB00A6B057 /* LaunchScreen.storyboard in Resources */,
+				2CC94A4420F9154500A6B057 /* Assets.xcassets in Resources */,
+				2CC94A3820F913E900A6B057 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CC94A2920F913E900A6B057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC94A3520F913E900A6B057 /* ViewController.swift in Sources */,
+				2C78887720FB3788001D40EB /* CustomButtons.swift in Sources */,
+				2CC94A3120F913E900A6B057 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CC94A3620F913E900A6B057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CC94A3720F913E900A6B057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CC94A3B20F913EB00A6B057 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CC94A3C20F913EB00A6B057 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CC94A3F20F913EB00A6B057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CC94A4020F913EB00A6B057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CC94A4220F913EB00A6B057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L23W9G3V5X;
+				INFOPLIST_FILE = "BasketBall Hoop Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShivangRanjan.BasketBall-Hoop-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CC94A4320F913EB00A6B057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L23W9G3V5X;
+				INFOPLIST_FILE = "BasketBall Hoop Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShivangRanjan.BasketBall-Hoop-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CC94A2820F913E900A6B057 /* Build configuration list for PBXProject "BasketBall Hoop Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC94A3F20F913EB00A6B057 /* Debug */,
+				2CC94A4020F913EB00A6B057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC94A4120F913EB00A6B057 /* Build configuration list for PBXNativeTarget "BasketBall Hoop Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC94A4220F913EB00A6B057 /* Debug */,
+				2CC94A4320F913EB00A6B057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CC94A2520F913E900A6B057 /* Project object */;
+}
